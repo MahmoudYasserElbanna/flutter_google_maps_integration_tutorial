@@ -40,7 +40,6 @@ class _CustomGoogleMapsState extends State<CustomGoogleMaps> {
           onMapCreated: (controller) => {
             googleMapController = controller,
           },
-          mapType: MapType.hybrid,
           markers: {
             Marker(
               icon: BitmapDescriptor.defaultMarkerWithHue(
